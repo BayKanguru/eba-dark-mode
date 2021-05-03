@@ -1,0 +1,190 @@
+* {
+  box-shadow: none !important;
+}
+
+a {
+  color: tomato !important;
+}
+
+.vc-fullHeight {
+  background-color: #151515 !important;
+}
+
+#vcEbaHeader {
+  background: #252525 !important;
+}
+
+.vc-color-blue {
+  color: tomato !important;
+}
+
+.vc-router-content {
+  background-color: #151515 !important;
+}
+
+.vc-layout-content-container-body {
+  background-color: #252525 !important;
+}
+
+.vc-bg-color-white {
+  background-color: #252525 !important;
+  color: white !important;
+}
+
+.vc-grid-item {
+  background-color: #252525 !important;
+  color: white !important;
+}
+
+.vc-grid-header {
+  background-color: tomato !important;
+}
+
+.vc-content-title-container {
+  background-color: #252525 !important;
+}
+
+.vc-bg-color-ghost-gray {
+  background-color: #252525 !important;
+}
+
+.vc-input-div {
+  background-color: #252525 !important;
+}
+
+#vc-feedComposer .feed-composer-textarea:after {
+  background-color: #252525 !important;
+  color: white !important;
+}
+
+.vc-left-menu-eba {
+  background-color: #252525 !important;
+}
+
+.leftMenuProfileName {
+  color: white !important;
+}
+
+.vc-left-menu-eba .vc-font-size-small {
+  color: #151515 !important;
+}
+
+.vc-lm-item-title {
+  color: white !important;
+}
+
+.vc-text-link {
+  color: tomato !important;
+}
+
+.vc-lm-item-selected {
+  background-color: tomato !important;
+}
+
+.selectable:hover {
+  background-color: tomato !important;
+}
+
+.hidden-xs {
+  color: white !important;
+}
+
+.event-pin {
+  background-color: tomato !important;
+}
+
+.btn-danger,
+.btn-success,
+.btn-warning,
+.btn-primary {
+  background-color: tomato !important;
+  color: #151515 !important;
+  border: none !important;
+}
+
+#portfolioWidgetSchema {
+  background-color: #252525 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.typeTitle {
+  color: tomato !important;
+}
+
+.add-empty-component span {
+  color: tomato !important;
+}
+
+#vc-new-curriculum-list-narrowed .node-child-bg-color {
+  background-color: #252525 !important;
+  color: white !important;
+}
+
+.vc-lm-item-container-collapsed {
+  background-color: #252525 !important;
+}
+
+.vc-lm-item-container {
+  background-color: #252525 !important;
+}
+
+.vc-tabButtons {
+  background-color: #252525 !important;
+  color: white !important;
+}
+
+.vc-tab-title:hover {
+  color: tomato !important;
+  border-bottom: 3px solid tomato !important;
+}
+
+.vc-tab-title[aria-selected="true"] {
+  color: tomato !important;
+  border-bottom: 3px solid tomato !important;
+}
+
+.col-button {
+  background-color: #252525 !important;
+}
+
+.active-event-container,
+.event-container {
+  background-color: #353535 !important;
+  color: white !important;
+  border-color: tomato !important;
+}
+
+.active-event-container {
+  background-color: tomato !important;
+}
+
+.event-teacher-name,
+.event-title {
+  color: white !important;
+}
+
+.event-course-time > div.vc-font-weight-bold {
+  color: white !important;
+}
+
+.vc-full-calendar .fc-title {
+  color: #151515 !important;
+}
+
+.vc-action-box-header {
+  background-color: #252525 !important;
+}
+
+.panel-body {
+  background-color: #252525 !important;
+  color: white !important;
+}
+
+#bodyPreloader {
+  background-color: #15151544 !important;
+}
+
+body[style] {
+  background-color: #151515 !important;
+}
