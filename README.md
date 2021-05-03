@@ -5,7 +5,7 @@ EBA websitesi'ni karanlık modda kullanmayı sağlayan basit bir uzantı.
 1. Depoyu cihazınıza zip formatında indirin.
 2. Arşivi çıkarın.
 3. chrome://extensions linkini kullanarak eklenti ayarlarınıza gidin.
-4. Sağ üst köşeden geliştirici moduna girin
+4. Sağ üst köşeden **geliştirici modu**na girin
 5. Zip arşivini çıkardığınız klasörü buraya sürükleyip bırakın.
 
 ## Firefox ve Firefox Tabanlı Tarayıcılarda Kullanmak*
