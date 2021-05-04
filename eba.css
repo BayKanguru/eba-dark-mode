@@ -1,195 +1,240 @@
+:root {
+  --background: #151515;
+  --background-light: #252525;
+  --background-lighter: #353535;
+  --highlight: tomato;
+  --highlight-light: hsl(9, 100%, 78%);
+  --foreground: white;
+}
+
 * {
   box-shadow: none !important;
 }
 
 a {
-  color: tomato !important;
+  color: var(--highlight) !important;
+}
+
+p {
+  color: var(--foreground);
 }
 
 .vc-fullHeight {
-  background-color: #151515 !important;
+  background-color: var(--background) !important;
 }
 
 #vcEbaHeader {
-  background: #252525 !important;
+  background: var(--background-light) !important;
 }
 
 .vc-color-blue {
-  color: tomato !important;
+  color: var(--highlight) !important;
 }
 
 .vc-router-content {
-  background-color: #151515 !important;
+  background-color: var(--background) !important;
 }
 
 .vc-layout-content-container-body {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .vc-bg-color-white {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
 }
 
 .vc-grid-item {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
 }
 
 .vc-grid-header {
-  background-color: tomato !important;
+  background-color: var(--highlight) !important;
 }
 
 .vc-content-title-container {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .vc-bg-color-ghost-gray {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .vc-input-div {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 #vc-feedComposer .feed-composer-textarea:after {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
 }
 
 .vc-left-menu-eba {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .leftMenuProfileName {
-  color: white !important;
+  color: var(--foreground) !important;
 }
 
 .vc-left-menu-eba .vc-font-size-small {
-  color: #151515 !important;
+  color: var(--background) !important;
 }
 
 .vc-lm-item-title {
-  color: white !important;
+  color: var(--foreground) !important;
 }
 
 .vc-text-link {
-  color: tomato !important;
+  color: var(--highlight) !important;
 }
 
 .vc-lm-item-selected {
-  background-color: tomato !important;
+  background-color: var(--highlight) !important;
 }
 
 .selectable:hover {
-  background-color: tomato !important;
+  background-color: var(--highlight) !important;
 }
 
 .hidden-xs {
-  color: white !important;
+  color: var(--foreground) !important;
 }
 
 .event-pin {
-  background-color: tomato !important;
+  background-color: var(--highlight) !important;
 }
 
 .btn-danger,
 .btn-success,
 .btn-warning,
 .btn-primary {
-  background-color: tomato !important;
-  color: #151515 !important;
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
   border: none !important;
 }
 
 #portfolioWidgetSchema {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
   border: none !important;
 }
 
 .typeTitle {
-  color: tomato !important;
+  color: var(--highlight) !important;
 }
 
 .add-empty-component span {
-  color: tomato !important;
+  color: var(--highlight) !important;
 }
 
 #vc-new-curriculum-list-narrowed .node-child-bg-color {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
 }
 
 .vc-lm-item-container-collapsed {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .vc-lm-item-container {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .vc-tabButtons {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
 }
 
 .vc-tab-title:hover {
-  color: tomato !important;
-  border-bottom: 3px solid tomato !important;
+  color: var(--highlight) !important;
+  border-bottom: 3px solid var(--highlight) !important;
 }
 
 .vc-tab-title[aria-selected="true"] {
-  color: tomato !important;
-  border-bottom: 3px solid tomato !important;
+  color: var(--highlight) !important;
+  border-bottom: 3px solid var(--highlight) !important;
 }
 
 .col-button {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .active-event-container,
 .event-container {
-  background-color: #353535 !important;
-  color: white !important;
-  border-color: tomato !important;
+  background-color: var(--background-lighter) !important;
+  color: var(--foreground) !important;
+  border-color: var(--highlight) !important;
 }
 
 .active-event-container {
-  background-color: tomato !important;
+  background-color: var(--highlight) !important;
 }
 
 .event-teacher-name,
 .event-title {
-  color: white !important;
+  color: var(--foreground) !important;
 }
 
 .event-course-time > div.vc-font-weight-bold {
-  color: white !important;
+  color: var(--foreground) !important;
 }
 
 .vc-full-calendar .fc-title {
-  color: #151515 !important;
+  color: var(--background) !important;
 }
 
 .vc-action-box-header {
-  background-color: #252525 !important;
+  background-color: var(--background-light) !important;
 }
 
 .panel-body {
-  background-color: #252525 !important;
-  color: white !important;
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
 }
 
 #bodyPreloader {
-  background-color: #15151544 !important;
+  background-color: var(--background) 44 !important;
 }
 
 body[style] {
-  background-color: #151515 !important;
+  background-color: var(--background) !important;
 }
 
 .card {
-  background-color: #252525 !important;
-  border-color: #252525 !important;
+  background-color: var(--background-light) !important;
+  border-color: var(--background-light) !important;
+}
+
+.vc-color-yale-blue {
+  color: var(--highlight-light) !important;
+}
+
+.contact100-form {
+  background-color: var(--background-lighter);
+}
+
+.nl-divider-row,
+.inner-ust,
+.inner-alt,
+.middle {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.nl-input-label,
+.nl-title {
+  color: var(--foreground);
+}
+
+.nl-tab-container,
+.nl-tab-content-row {
+  background-color: var(--background-light);
+}
+
+.nl-tab-btn.active {
+  background: none;
+  background-color: var(--highlight);
+  color: var(--foreground);
 }

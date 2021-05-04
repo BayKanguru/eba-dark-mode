@@ -2,12 +2,14 @@
   "manifest_version": 2,
 
   "name": "EBA Dark Mode",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Dark mode for EBA",
   "content_scripts": [
     {
-      "matches": ["https://ders.eba.gov.tr/*"],
-      "css": ["eba.css"]
+      "matches": ["https://*.eba.gov.tr/*"],
+      "js": ["eba.js"]
     }
-  ]
+  ],
+  "web_accessible_resources": ["eba.css"],
+  "permissions": ["tabs", "<all_urls>"]
 }
