@@ -188,3 +188,8 @@ a {
 body[style] {
   background-color: #151515 !important;
 }
+
+.card {
+  background-color: #252525 !important;
+  border-color: #252525 !important;
+}
