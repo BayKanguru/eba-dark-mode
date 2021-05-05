@@ -90,10 +90,6 @@ p {
   color: var(--highlight) !important;
 }
 
-.vc-lm-item-selected {
-  background-color: var(--highlight) !important;
-}
-
 .selectable:hover {
   background-color: var(--highlight) !important;
 }
@@ -103,6 +99,10 @@ p {
 }
 
 .event-pin {
+  background-color: var(--highlight) !important;
+}
+
+.vc-lm-item-selected {
   background-color: var(--highlight) !important;
 }
 
@@ -241,5 +241,104 @@ body[style] {
 
 .navbar {
   background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
+}
+
+.modal-content,
+.modal-footer,
+.modal-body {
+  background-color: var(--background-lighter) !important;
+  color: var(--foreground) !important;
+}
+
+.modal-header {
+  background-color: var(--highlight) !important;
+}
+
+.vc-action-box-header {
+  color: var(--highlight) !important;
+}
+
+.eba-menu-panel-container::before,
+.eba-menu-panel-container {
+  background-color: var(--background-lighter) !important;
+  color: var(--background-lighter) !important;
+}
+
+.eba-menu-panel-item {
+  color: var(--foreground) !important;
+}
+
+.eba-menu-panel-item:hover {
+  background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
+}
+
+.vc-color-dark-blue {
+  color: var(--highlight-light) !important;
+}
+
+.unSelectedItem {
+  background-color: var(--background-lighter) !important;
+  color: var(--foreground) !important;
+}
+
+.selectedItem {
+  background-color: var(--highlight) !important;
+}
+
+.gunluk-gorunum * {
+  color: var(--foreground) !important;
+}
+
+[for="rememberMe"] {
+  color: var(--foreground) !important;
+}
+
+.ec-saatlik-liste *:not(.ec-sinif-rengi) {
+  background-color: var(--highlight) !important;
+}
+
+.tab-content,
+.ec-header-btn,
+.ec-header {
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
+}
+
+.ec-menu-icon-normal,
+.ec-header-menu-text {
+  color: var(--highlight) !important;
+  fill: var(--highlight) !important;
+}
+
+.ec-ebaya-git-en-yeni * {
+  color: var(--background) !important;
+}
+
+.ec-ebaya-git-en-yeni-ogrenci {
+  background-color: var(--foreground) !important;
+}
+
+a[class^="ec-ebaya-git-en-yeni-"]:not(.ec-ebaya-git-en-yeni-ogrenci),
+.ec-ebaya-git-btn a {
+  background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
+}
+
+.ec-table-ders-adi {
+  color: var(--foreground) !important;
+}
+
+.ec-modal-table [class$="-sutunu"] {
+  color: var(--foreground) !important;
+  background-color: var(--highlight) !important;
+}
+
+.table.table-striped,
+.ec-table-ders,
+.ec-table-tarih,
+.ec-table-saat {
+  background-color: var(--background-light) !important;
   color: var(--foreground) !important;
 }

@@ -1,6 +1,12 @@
-04.05.2021
-----------
+04.05.2021 -- 0.2.0
+-------------------
 - Started change log
 - Switched to Javascript injection from CSS injection for better control and higher priority
 - Added support for login page
-- Updated manifest for version 0.2.0
+- Updated manifest to version 0.2.0
+
+05.05.2021 -- 0.2.1
+-------------------
+- Added support for more pages including main page
+- Some readability improvements
+- Updated manifest to version 0.2.1
