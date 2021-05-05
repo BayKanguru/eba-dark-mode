@@ -212,29 +212,34 @@ body[style] {
 }
 
 .contact100-form {
-  background-color: var(--background-lighter);
+  background-color: var(--background-lighter) !important;
 }
 
 .nl-divider-row,
 .inner-ust,
 .inner-alt,
 .middle {
-  background-color: var(--background);
-  color: var(--foreground);
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
 }
 
 .nl-input-label,
 .nl-title {
-  color: var(--foreground);
+  color: var(--foreground) !important;
 }
 
 .nl-tab-container,
 .nl-tab-content-row {
-  background-color: var(--background-light);
+  background-color: var(--background-light) !important;
 }
 
 .nl-tab-btn.active {
-  background: none;
-  background-color: var(--highlight);
-  color: var(--foreground);
+  background: none !important;
+  background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
+}
+
+.navbar {
+  background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
 }
