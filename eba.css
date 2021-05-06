@@ -5,13 +5,26 @@
   --highlight: tomato;
   --highlight-light: hsl(9, 100%, 78%);
   --foreground: white;
+  --accessibility-focus: blue;
 }
 
 * {
   box-shadow: none !important;
 }
 
-a {
+a:focus,
+button:focus,
+input:focus {
+  box-shadow: none !important;
+  box-shadow: 0 0 0 3px var(--accessibility-focus) !important;
+}
+
+a,
+.vc-color-blue,
+.vc-text-link,
+.typeTitle,
+.add-empty-component span,
+.vc-action-box-header {
   color: var(--highlight) !important;
 }
 
@@ -19,7 +32,9 @@ p {
   color: var(--foreground);
 }
 
-.vc-fullHeight {
+.vc-router-content,
+.vc-fullHeight,
+body[style] {
   background-color: var(--background) !important;
 }
 
@@ -27,41 +42,34 @@ p {
   background: var(--background-light) !important;
 }
 
-.vc-color-blue {
-  color: var(--highlight) !important;
-}
-
-.vc-router-content {
-  background-color: var(--background) !important;
-}
-
-.vc-layout-content-container-body {
-  background-color: var(--background-light) !important;
-}
-
+.vc-grid-item,
 .vc-bg-color-white {
   background-color: var(--background-light) !important;
   color: var(--foreground) !important;
 }
 
-.vc-grid-item {
-  background-color: var(--background-light) !important;
-  color: var(--foreground) !important;
-}
-
+.ec-saatlik-liste *:not(.ec-sinif-rengi),
+.selectedItem,
+.modal-header,
+.active-event-container,
+.event-pin,
+.vc-lm-item-selected,
+.selectable:hover,
 .vc-grid-header {
   background-color: var(--highlight) !important;
 }
 
+.vc-layout-content-container-body,
+.nl-tab-container,
+.nl-tab-content-row,
+.vc-action-box-header,
+.col-button,
+.vc-lm-item-container,
+.vc-lm-item-container-collapsed,
+.vc-left-menu-eba,
+.vc-input-div,
+.vc-bg-color-ghost-gray,
 .vc-content-title-container {
-  background-color: var(--background-light) !important;
-}
-
-.vc-bg-color-ghost-gray {
-  background-color: var(--background-light) !important;
-}
-
-.vc-input-div {
   background-color: var(--background-light) !important;
 }
 
@@ -70,40 +78,25 @@ p {
   color: var(--foreground) !important;
 }
 
-.vc-left-menu-eba {
-  background-color: var(--background-light) !important;
-}
-
+.ec-table-ders-adi,
+[for="rememberMe"],
+.gunluk-gorunum *,
+.eba-menu-panel-item,
+.nl-input-label,
+.nl-title,
+.event-course-time > div.vc-font-weight-bold,
+.event-teacher-name,
+.event-title,
+.hidden-xs,
+.vc-lm-item-title,
 .leftMenuProfileName {
   color: var(--foreground) !important;
 }
 
+.ec-ebaya-git-en-yeni *,
+.vc-full-calendar .fc-title,
 .vc-left-menu-eba .vc-font-size-small {
   color: var(--background) !important;
-}
-
-.vc-lm-item-title {
-  color: var(--foreground) !important;
-}
-
-.vc-text-link {
-  color: var(--highlight) !important;
-}
-
-.selectable:hover {
-  background-color: var(--highlight) !important;
-}
-
-.hidden-xs {
-  color: var(--foreground) !important;
-}
-
-.event-pin {
-  background-color: var(--highlight) !important;
-}
-
-.vc-lm-item-selected {
-  background-color: var(--highlight) !important;
 }
 
 .btn-danger,
@@ -121,25 +114,9 @@ p {
   border: none !important;
 }
 
-.typeTitle {
-  color: var(--highlight) !important;
-}
-
-.add-empty-component span {
-  color: var(--highlight) !important;
-}
-
 #vc-new-curriculum-list-narrowed .node-child-bg-color {
   background-color: var(--background-light) !important;
   color: var(--foreground) !important;
-}
-
-.vc-lm-item-container-collapsed {
-  background-color: var(--background-light) !important;
-}
-
-.vc-lm-item-container {
-  background-color: var(--background-light) !important;
 }
 
 .vc-tabButtons {
@@ -157,36 +134,11 @@ p {
   border-bottom: 3px solid var(--highlight) !important;
 }
 
-.col-button {
-  background-color: var(--background-light) !important;
-}
-
 .active-event-container,
 .event-container {
   background-color: var(--background-lighter) !important;
   color: var(--foreground) !important;
   border-color: var(--highlight) !important;
-}
-
-.active-event-container {
-  background-color: var(--highlight) !important;
-}
-
-.event-teacher-name,
-.event-title {
-  color: var(--foreground) !important;
-}
-
-.event-course-time > div.vc-font-weight-bold {
-  color: var(--foreground) !important;
-}
-
-.vc-full-calendar .fc-title {
-  color: var(--background) !important;
-}
-
-.vc-action-box-header {
-  background-color: var(--background-light) !important;
 }
 
 .panel-body {
@@ -198,15 +150,12 @@ p {
   background-color: var(--background) 44 !important;
 }
 
-body[style] {
-  background-color: var(--background) !important;
-}
-
 .card {
   background-color: var(--background-light) !important;
   border-color: var(--background-light) !important;
 }
 
+.vc-color-dark-blue,
 .vc-color-yale-blue {
   color: var(--highlight-light) !important;
 }
@@ -221,16 +170,6 @@ body[style] {
 .middle {
   background-color: var(--background) !important;
   color: var(--foreground) !important;
-}
-
-.nl-input-label,
-.nl-title {
-  color: var(--foreground) !important;
-}
-
-.nl-tab-container,
-.nl-tab-content-row {
-  background-color: var(--background-light) !important;
 }
 
 .nl-tab-btn.active {
@@ -251,22 +190,10 @@ body[style] {
   color: var(--foreground) !important;
 }
 
-.modal-header {
-  background-color: var(--highlight) !important;
-}
-
-.vc-action-box-header {
-  color: var(--highlight) !important;
-}
-
 .eba-menu-panel-container::before,
 .eba-menu-panel-container {
   background-color: var(--background-lighter) !important;
   color: var(--background-lighter) !important;
-}
-
-.eba-menu-panel-item {
-  color: var(--foreground) !important;
 }
 
 .eba-menu-panel-item:hover {
@@ -274,46 +201,27 @@ body[style] {
   color: var(--foreground) !important;
 }
 
-.vc-color-dark-blue {
-  color: var(--highlight-light) !important;
-}
-
 .unSelectedItem {
   background-color: var(--background-lighter) !important;
   color: var(--foreground) !important;
 }
 
-.selectedItem {
-  background-color: var(--highlight) !important;
-}
-
-.gunluk-gorunum * {
-  color: var(--foreground) !important;
-}
-
-[for="rememberMe"] {
-  color: var(--foreground) !important;
-}
-
-.ec-saatlik-liste *:not(.ec-sinif-rengi) {
-  background-color: var(--highlight) !important;
-}
-
-.tab-content,
 .ec-header-btn,
 .ec-header {
   background-color: var(--background-light) !important;
   color: var(--foreground) !important;
 }
 
+.tab-content {
+  background-color: var(--background-light) !important;
+  color: var(--foreground) !important;
+  border-radius: 100vh 100vh 0 100vh;
+}
+
 .ec-menu-icon-normal,
 .ec-header-menu-text {
   color: var(--highlight) !important;
   fill: var(--highlight) !important;
-}
-
-.ec-ebaya-git-en-yeni * {
-  color: var(--background) !important;
 }
 
 .ec-ebaya-git-en-yeni-ogrenci {
@@ -323,10 +231,6 @@ body[style] {
 a[class^="ec-ebaya-git-en-yeni-"]:not(.ec-ebaya-git-en-yeni-ogrenci),
 .ec-ebaya-git-btn a {
   background-color: var(--highlight) !important;
-  color: var(--foreground) !important;
-}
-
-.ec-table-ders-adi {
   color: var(--foreground) !important;
 }
 
