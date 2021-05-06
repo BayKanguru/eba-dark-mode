@@ -10,3 +10,12 @@
 - Added support for more pages including main page
 - Some readability improvements
 - Updated manifest to version 0.2.1
+
+06.05.2021 -- 0.2.2
+-------------------
+- Added icon for extension
+- Made eba.css less cluttered
+- README changes
+- Accessibility improvements
+- Changed default title
+- Updated manifest to version 0.2.2
