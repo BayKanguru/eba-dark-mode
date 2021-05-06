@@ -2,6 +2,11 @@
 
 EBA websitesi'ni karanlık modda kullanmayı sağlayan basit bir uzantı.
 
+## Özellikler
+
+- CSS değişkenleri ile istediğiniz [renklere ayarlayabilirsiniz](#colors).
+- Ulaşılabilirlik iyileştirmeleri.
+
 ## Chrome ve Chromium Tabanlı(Brave, Opera, Edge) Tarayıcılarda Kullanmak
 
 1. Depoyu cihazınıza zip formatında indirin.
@@ -14,7 +19,7 @@ EBA websitesi'ni karanlık modda kullanmayı sağlayan basit bir uzantı.
 
 - İleride eklenecek
 
-## Renkleri Değiştirmek
+## Renkleri Değiştirmek {#colors}
 
 Depoyu indirdikten sonra [eba.css](./eba.css) dosyasının başındaki 6 değişkenin değerlerini değiştirebilirsiniz.
 
@@ -26,14 +31,16 @@ Depoyu indirdikten sonra [eba.css](./eba.css) dosyasının başındaki 6 değiş
     --highlight: tomato;
     --highlight-light: hsl(9, 100%, 78%);
     --foreground: white;
+    --accessibility-focus: blue;
 
 ### Örnek
 
-Arkaplan pembe, yazılar mavi, başlıklar/detaylar yeşil:
+Arkaplan pembe, yazılar mavi, başlıklar/detaylar yeşil, ulaşılabilirlik seçim rengi kırmızı:
 
     --background: pink;
-    --background-light:  hsl(350, 100%, 60%);
-    --background-lighter: hsl(350, 100%, 50%);
+    --background-light:  hsl(350, 100%, 60%);/* açık pembe */
+    --background-lighter: hsl(350, 100%, 50%);/* daha açık pembe */
     --highlight: green;
-    --highlight-light: hsl(120, 100%, 50%);
+    --highlight-light: hsl(120, 100%, 50%); /* açık yeşil */
     --foreground: blue;
+    --accessibility-focus: red;
