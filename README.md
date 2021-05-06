@@ -19,7 +19,7 @@ EBA websitesi'ni karanlık modda kullanmayı sağlayan basit bir uzantı.
 
 - İleride eklenecek
 
-## Renkleri Değiştirmek {#colors}
+## Renkleri Değiştirmek{#colors}
 
 Depoyu indirdikten sonra [eba.css](./eba.css) dosyasının başındaki 6 değişkenin değerlerini değiştirebilirsiniz.
 
