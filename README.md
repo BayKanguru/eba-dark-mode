@@ -44,3 +44,7 @@ Arkaplan pembe, yazılar mavi, başlıklar/detaylar yeşil, ulaşılabilirlik se
     --highlight-light: hsl(120, 100%, 50%); /* açık yeşil */
     --foreground: blue;
     --accessibility-focus: red;
+
+### Ek
+- [Logo SVG](./img/svg)
+- [Logo PNG](./img) çeşitli boyutlarda
