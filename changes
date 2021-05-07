@@ -1,17 +1,17 @@
-04.05.2021 -- 0.2.0
+2021-05-04 -- 0.2.0
 -------------------
 - Started change log
 - Switched to Javascript injection from CSS injection for better control and higher priority
 - Added support for login page
 - Updated manifest to version 0.2.0
 
-05.05.2021 -- 0.2.1
+2021-05-05 -- 0.2.1
 -------------------
 - Added support for more pages including main page
 - Some readability improvements
 - Updated manifest to version 0.2.1
 
-06.05.2021 -- 0.2.2
+2021-05-06 -- 0.2.2
 -------------------
 - Added icon for extension
 - Made eba.css less cluttered
@@ -19,3 +19,7 @@
 - Accessibility improvements
 - Changed default title
 - Updated manifest to version 0.2.2
+
+2021-05-06 -- 0.2.2
+-------------------
+- Formatted changes dates to be standard
