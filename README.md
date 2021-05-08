@@ -66,7 +66,14 @@ Arkaplan pembe, yazılar mavi, başlıklar/detaylar yeşil, ulaşılabilirlik se
 }
 ```
 
-### Ek
+## Güncelleme Bildirimlerini Kapatmak
+
+1. Sağ üst köşedeki eklenti tuşuna basın.
+2. EBA Dark Mode eklentisine tıklayın.
+3. Önünüze çıkan ayarlardan **Bildirimler** kutusunun işaretini kaldırın.
+4. **Kaydet** tuşuna basın.
+
+## Ek
 
 - [Logo SVG](./img/svg)
 - [Logo PNG](./img) çeşitli boyutlarda

@@ -66,7 +66,14 @@ Background is pink, texts are blue, headings/highlights are green, accessibility
 }
 ```
 
-### Additions
+## Turning Update Notifications Off
+
+1. Click the extensions button on the top-right corner.
+2. Click on EBA Dark Mode extension.
+3. In the options menu uncheck the **Bildirimler** checkbox.
+4. Click **Kaydet** to save.
+
+## Additions
 
 - [Logo SVG](./img/svg)
 - [Logo PNG](./img) in various resolutions.
