@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "EBA Dark Mode",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Dark mode for EBA",
   "icons": {
     "32": "img/logo-32.png",
@@ -11,13 +11,17 @@
     "256": "img/logo-256.png",
     "512": "img/logo-512.png"
   },
+  "background": {
+    "scripts": ["js/update.js"]
+  },
+  "permissions": ["notifications", "storage"],
   "content_scripts": [
     {
       "matches": ["https://*.eba.gov.tr/*"],
-      "js": ["eba.js"]
+      "js": ["js/eba.js"]
     }
   ],
-  "web_accessible_resources": ["eba.css"],
+  "web_accessible_resources": ["eba.css", "logo-512.png"],
   "browser_action": {
     "default_icon": {
       "32": "img/logo-32.png",
@@ -25,5 +29,8 @@
       "128": "img/logo-128.png"
     },
     "default_title": "EBA Dark Mode"
+  },
+  "options_ui": {
+    "page": "options.html"
   }
 }

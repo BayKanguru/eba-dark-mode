@@ -32,3 +32,10 @@
 - Updated README to account for new variables
 - Added logo to README
 - Updated manifest to version 0.3.0
+
+2021-05-08 -- 0.3.1
+-------------------
+- Added update control and notifications
+- Added options page
+- Tidied up the general files
+- Updated manifest to version 0.3.1
