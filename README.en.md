@@ -28,7 +28,7 @@ A basic extension that turns [EBA](https://eba.gov.tr) website to dark mode.
 1. Download this repo as zip.
 2. Extract the archive where you last extracted(if there are remaining old files, delete them).
 3. Using chrome://extensions link go to extension settings.
-4. Find the EBA Dark Mode extension and press the **reinstall** (<img src="https://pic.onlinewebfonts.com/svg/img_210193.png" width=12px>) button on the bottom right corner.
+4. Find the EBA Dark Mode extension and press the **reinstall** (<img src="https://www.iconsdb.com/icons/preview/white/refresh-2-xxl.png" width=12px>) button on the bottom right corner.
 
 ## Changing Colors
 

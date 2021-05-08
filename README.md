@@ -28,7 +28,7 @@
 1. Depoyu cihazınıza zip formatında indirin.
 2. Arşivi en son çıkardığınız yere çıkarın(eğer eski dosyalar duruyorsa silin).
 3. chrome://extensions linkini kullanarak eklenti ayarlarınıza gidin.
-4. EBA Dark Mode eklentisini bulup sağ alt köşesindeki **yeniden yükleme** (<img src="https://pic.onlinewebfonts.com/svg/img_210193.png" width=12px>) butonuna basın.
+4. EBA Dark Mode eklentisini bulup sağ alt köşesindeki **yeniden yükleme** (<img src="https://www.iconsdb.com/icons/preview/white/refresh-2-xxl.png" width=12px>) butonuna basın.
 
 ## Renkleri Değiştirmek
 
