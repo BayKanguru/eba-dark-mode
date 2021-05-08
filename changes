@@ -23,3 +23,12 @@
 2021-05-06 -- 0.2.2
 -------------------
 - Formatted changes dates to be standard
+
+2021-05-08 -- 0.3.0
+-------------------
+- Implemented highest priority css injecton technique that injects the file as style tag to body
+- Tidied up eba.css to be cleaner
+- Removed unnecessary permissions line from manifest.json
+- Updated README to account for new variables
+- Added logo to README
+- Updated manifest to version 0.3.0
