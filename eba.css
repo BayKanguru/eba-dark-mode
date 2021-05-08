@@ -4,6 +4,7 @@
   --background-lighter: #353535;
   --highlight: tomato;
   --highlight-light: hsl(9, 100%, 78%);
+  --highlight-dark: hsl(9, 100%, 50%);
   --foreground: white;
   --accessibility-focus: blue;
 }
@@ -28,8 +29,24 @@ a,
   color: var(--highlight) !important;
 }
 
-p {
-  color: var(--foreground);
+p,
+.vc-font-weight-normal,
+.ec-table-ders-adi,
+[for="rememberMe"],
+.gunluk-gorunum *,
+.eba-menu-panel-item,
+.nl-input-label,
+.nl-title,
+.event-course-time > div.vc-font-weight-bold,
+.event-teacher-name,
+.event-title,
+.hidden-xs,
+.vc-lm-item-title,
+.leftMenuProfileName,
+td span,
+.fc-day-grid-event .fc-content,
+.p-l-md .vc-color-yale-blue {
+  color: var(--foreground) !important;
 }
 
 .vc-router-content,
@@ -75,21 +92,6 @@ body[style] {
 
 #vc-feedComposer .feed-composer-textarea:after {
   background-color: var(--background-light) !important;
-  color: var(--foreground) !important;
-}
-
-.ec-table-ders-adi,
-[for="rememberMe"],
-.gunluk-gorunum *,
-.eba-menu-panel-item,
-.nl-input-label,
-.nl-title,
-.event-course-time > div.vc-font-weight-bold,
-.event-teacher-name,
-.event-title,
-.hidden-xs,
-.vc-lm-item-title,
-.leftMenuProfileName {
   color: var(--foreground) !important;
 }
 
@@ -245,4 +247,24 @@ a[class^="ec-ebaya-git-en-yeni-"]:not(.ec-ebaya-git-en-yeni-ogrenci),
 .ec-table-saat {
   background-color: var(--background-light) !important;
   color: var(--foreground) !important;
+}
+
+.fc-day-header,
+#liveLessonList .fc .fc-day-header {
+  background-color: var(--highlight) !important;
+}
+
+.pagination > .active > a {
+  background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
+  border-color: var(--highlight) !important;
+}
+
+td {
+  background-color: var(--background-light) !important;
+  border-color: var(--foreground) !important;
+}
+
+.vc-color-red * {
+  color: var(--highlight-dark) !important;
 }
