@@ -106,7 +106,7 @@ body[style] {
 .btn-warning,
 .btn-primary {
   background-color: var(--highlight) !important;
-  color: var(--background) !important;
+  color: var(--foreground) !important;
   border: none !important;
 }
 
@@ -267,4 +267,19 @@ td {
 
 .vc-color-red * {
   color: var(--highlight-dark) !important;
+}
+
+#ebaLibrary .hover-category:hover,
+.hover-effect:hover {
+  background-color: var(--highlight) !important;
+  color: var(--foreground) !important;
+}
+
+/*load screen*/
+#generalPreloader {
+  background-color: var(--background) !important;
+}
+
+.spinnerXC .path {
+  stroke: var(--highlight) !important;
 }
