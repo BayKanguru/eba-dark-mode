@@ -26,7 +26,8 @@ EBA websitesi'ni karanlık modda kullanmayı sağlayan basit bir uzantı.
 Depoyu indirdikten sonra [eba.css](./eba.css) dosyasının başındaki 6 değişkenin değerlerini değiştirebilirsiniz.
 
 ### Varsayılan Değerler
-
+```css
+:root{
     --background: #151515;
     --background-light: #252525;
     --background-lighter: #353535;
@@ -35,11 +36,13 @@ Depoyu indirdikten sonra [eba.css](./eba.css) dosyasının başındaki 6 değiş
     --highlight-dark: hsl(9, 100%, 50%);
     --foreground: white;
     --accessibility-focus: blue;
-
+}
+```
 ### Örnek
 
 Arkaplan pembe, yazılar mavi, başlıklar/detaylar yeşil, ulaşılabilirlik seçim rengi kırmızı:
-
+```css
+:root{
     --background: pink;
     --background-light:  hsl(350, 100%, 60%);/* açık pembe */
     --background-lighter: hsl(350, 100%, 50%);/* daha açık pembe */
@@ -48,7 +51,8 @@ Arkaplan pembe, yazılar mavi, başlıklar/detaylar yeşil, ulaşılabilirlik se
     --highlight-dark: hsl(120, 100%, 30%); /* koyu yeşil */
     --foreground: blue;
     --accessibility-focus: red;
-
+}
+```
 ### Ek
 
 - [Logo SVG](./img/svg)
