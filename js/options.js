@@ -18,7 +18,7 @@ function save_options() {
 function restore_options() {
   chrome.storage.sync.get(
     {
-      ebaDarkModeNotify: true,
+      ebaDarkModeNotify: false,
     },
     function (items) {
       document.getElementById("notify").checked = items.ebaDarkModeNotify;
