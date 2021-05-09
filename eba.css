@@ -1,4 +1,10 @@
+/* aşağıdaki değerleri değiştirerek temayı ayarlayabilirsiniz */
 :root {
+  /*
+   * öneriler
+   * backgroundlar ile foregroundın kontrastı iyi olmalı
+   * accessibility-focus rahat görülebilir olmalı
+   */
   --background: #151515;
   --background-light: #252525;
   --background-lighter: #353535;
@@ -9,6 +15,7 @@
   --accessibility-focus: blue;
 }
 
+/* css ile herşeyi değiştirebilirsiniz ancak genellikle yukarı yeterli*/
 * {
   box-shadow: none !important;
 }

@@ -1,9 +1,15 @@
+/*
+ * background scripti
+ * güncelleme kontrolü ve bildirimi
+ * tıklayınca seçeneklere gitme
+ */
 async function getTextURL(url) {
   const response = await fetch(url);
   const data = await response.text();
   console.log(data);
   return data;
 }
+
 // update notification
 console.log("started");
 var manifest_server = getTextURL(

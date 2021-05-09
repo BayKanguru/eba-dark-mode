@@ -33,6 +33,7 @@
 ## Renkleri Değiştirmek
 
 Depoyu indirdikten sonra [eba.css](./eba.css) dosyasının başındaki değişkenlerin değerlerini değiştirebilirsiniz.
+Yaptığınız temaları göndermekten çekinmeyin.
 
 ### Varsayılan Değerler
 

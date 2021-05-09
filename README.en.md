@@ -33,6 +33,7 @@ A basic extension that turns [EBA](https://eba.gov.tr) website to dark mode.
 ## Changing Colors
 
 After you've downloaded the archive, you can change the variables in the beginning of [eba.css](./eba.css).
+You can send any themes that you've made.
 
 ### Default Values
 
